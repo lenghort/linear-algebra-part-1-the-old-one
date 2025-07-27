@@ -1,0 +1,478 @@
+{
+    "chapters": [
+        {
+            "path": "/texts/course/config.yml",
+            "status": {
+                "total": 258,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/1. Vectors/config.yml",
+            "status": {
+                "total": 34,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/config.yml",
+            "status": {
+                "total": 39,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/config.yml",
+            "status": {
+                "total": 23,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/config.yml",
+            "status": {
+                "total": 15,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/5. Gauss Elimination/config.yml",
+            "status": {
+                "total": 50,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/6. Determinants/config.yml",
+            "status": {
+                "total": 68,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/config.yml",
+            "status": {
+                "total": 29,
+                "correct": 0
+            }
+        }
+    ],
+    "lessons": [
+        {
+            "path": "/texts/course/1. Vectors/Length of Vector Proof/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Vectors/Sum of Vectors Quiz/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Vectors/Sum of Vectors Quiz 2/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Vectors/Scaling Quiz/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Vectors/Scalar Product Quiz/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Vectors/Scalar Product Proof/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Vectors/Geometric Meaning Quiz/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Vectors/Orthonormalisation Quiz/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Vectors/Numpy Practice/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/1. Vectors/Vectors Practice/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Spans/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Linear Dependency/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Linear Independency 1/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Linear Independency 2/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Linear Dependensy and Orthonormalization/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Orthonormalization Algorithm/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Basis/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Coordinates/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Orthonormal Coordinates/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Coordinates and Basis Practice/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Hyperplanes/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Hyperplanes and Subspaces/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/Matrix/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/Matrices Manual Exercise/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/Matrix Product Quiz/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/Matrix Product Optimal Order/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/Matrix Product/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Functions as Transforms/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Linear Transforms/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Invertible Matrices/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Invertible Matrices II/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Invertible Matrices III/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Some Interesting Linear Transforms/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/5. Gauss Elimination/Manual Exercises Square Matrices/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/5. Gauss Elimination/Manual Exercises Nonsquare Matrices/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/5. Gauss Elimination/Coding and Applying Gauss Elimination/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/6. Determinants/Definition/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/6. Determinants/Properties/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/6. Determinants/Permutations Formula/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/6. Determinants/Permutations II/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/6. Determinants/Cramer's Rule/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/6. Determinants/Recurrent Formula and Cofactors/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/6. Determinants/Determinant Computation Algorithm/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/6. Determinants/Jacobian Matrix and Its Determinant/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/6. Determinants/Reflection Matrix/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Definition/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Properties/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Diagonalized Form of Matrix/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Matrix Power and Exponent/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Differential Equations Evolutionary Matrix/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Differential Equations General Solution/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Jordan Chain/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        }
+    ]
+}
