@@ -1,0 +1,1545 @@
+{
+    "correct": 0.6428571428571429,
+    "testStatus": [
+        {
+            "name": "root -> task0 -> a -> contravariant_x",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task0 -> a -> contravariant_y",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task0 -> a -> covariant_x",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task0 -> a -> covariant_y",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task0 -> b -> contravariant_x",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task0 -> b -> contravariant_y",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task0 -> b -> covariant_x",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task0 -> b -> covariant_y",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task1 -> 0",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 6)\nRecieved shape: (6, 9)"
+        },
+        {
+            "name": "root -> task1 -> 1",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 86.93827160493827"
+        },
+        {
+            "name": "root -> task1 -> 2",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (5, 2)\nRecieved shape: (2, 5)"
+        },
+        {
+            "name": "root -> task1 -> 3",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 7)\nRecieved shape: (7, 9)"
+        },
+        {
+            "name": "root -> task1 -> 4",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (5, 7)\nRecieved shape: (7, 5)"
+        },
+        {
+            "name": "root -> task1 -> 5",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (6, 2)\nRecieved shape: (2, 6)"
+        },
+        {
+            "name": "root -> task1 -> 6",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (5, 8)\nRecieved shape: (8, 5)"
+        },
+        {
+            "name": "root -> task1 -> 7",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 6)\nRecieved shape: (6, 9)"
+        },
+        {
+            "name": "root -> task1 -> 8",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 4)\nRecieved shape: (4, 9)"
+        },
+        {
+            "name": "root -> task1 -> 9",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 68.5"
+        },
+        {
+            "name": "root -> task1 -> 10",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 2)\nRecieved shape: (2, 9)"
+        },
+        {
+            "name": "root -> task1 -> 11",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 7)\nRecieved shape: (7, 9)"
+        },
+        {
+            "name": "root -> task1 -> 12",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (6, 3)\nRecieved shape: (3, 6)"
+        },
+        {
+            "name": "root -> task1 -> 13",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 3)\nRecieved shape: (3, 9)"
+        },
+        {
+            "name": "root -> task1 -> 14",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (3, 6)\nRecieved shape: (6, 3)"
+        },
+        {
+            "name": "root -> task1 -> 15",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 72.9375"
+        },
+        {
+            "name": "root -> task1 -> 16",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (7, 6)\nRecieved shape: (6, 7)"
+        },
+        {
+            "name": "root -> task1 -> 17",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (3, 5)\nRecieved shape: (5, 3)"
+        },
+        {
+            "name": "root -> task1 -> 18",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 6)\nRecieved shape: (6, 9)"
+        },
+        {
+            "name": "root -> task1 -> 19",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (7, 5)\nRecieved shape: (5, 7)"
+        },
+        {
+            "name": "root -> task1 -> 20",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (5, 2)\nRecieved shape: (2, 5)"
+        },
+        {
+            "name": "root -> task1 -> 21",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (5, 9)\nRecieved shape: (9, 5)"
+        },
+        {
+            "name": "root -> task1 -> 22",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 6)\nRecieved shape: (6, 9)"
+        },
+        {
+            "name": "root -> task1 -> 23",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 81.03703703703704"
+        },
+        {
+            "name": "root -> task1 -> 24",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (7, 9)\nRecieved shape: (9, 7)"
+        },
+        {
+            "name": "root -> task1 -> 25",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (6, 7)\nRecieved shape: (7, 6)"
+        },
+        {
+            "name": "root -> task1 -> 26",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 9)\nRecieved shape: (9, 8)"
+        },
+        {
+            "name": "root -> task1 -> 27",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 5)\nRecieved shape: (5, 8)"
+        },
+        {
+            "name": "root -> task1 -> 28",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 51.5"
+        },
+        {
+            "name": "root -> task1 -> 29",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 78.66666666666667"
+        },
+        {
+            "name": "root -> task1 -> 30",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 7)\nRecieved shape: (7, 8)"
+        },
+        {
+            "name": "root -> task1 -> 31",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 97.70370370370371"
+        },
+        {
+            "name": "root -> task1 -> 32",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (5, 6)\nRecieved shape: (6, 5)"
+        },
+        {
+            "name": "root -> task1 -> 33",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (5, 8)\nRecieved shape: (8, 5)"
+        },
+        {
+            "name": "root -> task1 -> 34",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 7)\nRecieved shape: (7, 9)"
+        },
+        {
+            "name": "root -> task1 -> 35",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (5, 7)\nRecieved shape: (7, 5)"
+        },
+        {
+            "name": "root -> task1 -> 36",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 9)\nRecieved shape: (9, 8)"
+        },
+        {
+            "name": "root -> task1 -> 37",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 2)\nRecieved shape: (2, 9)"
+        },
+        {
+            "name": "root -> task1 -> 38",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 8)\nRecieved shape: (8, 9)"
+        },
+        {
+            "name": "root -> task1 -> 39",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (7, 4)\nRecieved shape: (4, 7)"
+        },
+        {
+            "name": "root -> task1 -> 40",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 46.0"
+        },
+        {
+            "name": "root -> task1 -> 41",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 7)\nRecieved shape: (7, 8)"
+        },
+        {
+            "name": "root -> task1 -> 42",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 3)\nRecieved shape: (3, 8)"
+        },
+        {
+            "name": "root -> task1 -> 43",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (6, 2)\nRecieved shape: (2, 6)"
+        },
+        {
+            "name": "root -> task1 -> 44",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 6)\nRecieved shape: (6, 8)"
+        },
+        {
+            "name": "root -> task1 -> 45",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 5)\nRecieved shape: (5, 9)"
+        },
+        {
+            "name": "root -> task1 -> 46",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 72.66666666666667"
+        },
+        {
+            "name": "root -> task1 -> 47",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 6)\nRecieved shape: (6, 8)"
+        },
+        {
+            "name": "root -> task1 -> 48",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (7, 4)\nRecieved shape: (4, 7)"
+        },
+        {
+            "name": "root -> task1 -> 49",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 3)\nRecieved shape: (3, 8)"
+        },
+        {
+            "name": "root -> task1 -> 50",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 9)\nRecieved shape: (9, 8)"
+        },
+        {
+            "name": "root -> task1 -> 51",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 5)\nRecieved shape: (5, 9)"
+        },
+        {
+            "name": "root -> task1 -> 52",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 70.15625"
+        },
+        {
+            "name": "root -> task1 -> 53",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 4)\nRecieved shape: (4, 9)"
+        },
+        {
+            "name": "root -> task1 -> 54",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 8)\nRecieved shape: (8, 9)"
+        },
+        {
+            "name": "root -> task1 -> 55",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 8)\nRecieved shape: (8, 9)"
+        },
+        {
+            "name": "root -> task1 -> 56",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (6, 7)\nRecieved shape: (7, 6)"
+        },
+        {
+            "name": "root -> task1 -> 57",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 2)\nRecieved shape: (2, 8)"
+        },
+        {
+            "name": "root -> task1 -> 58",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (7, 9)\nRecieved shape: (9, 7)"
+        },
+        {
+            "name": "root -> task1 -> 59",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 6)\nRecieved shape: (6, 8)"
+        },
+        {
+            "name": "root -> task1 -> 60",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 5)\nRecieved shape: (5, 8)"
+        },
+        {
+            "name": "root -> task1 -> 61",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (7, 8)\nRecieved shape: (8, 7)"
+        },
+        {
+            "name": "root -> task1 -> 62",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (6, 8)\nRecieved shape: (8, 6)"
+        },
+        {
+            "name": "root -> task1 -> 63",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (5, 7)\nRecieved shape: (7, 5)"
+        },
+        {
+            "name": "root -> task1 -> 64",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (5, 8)\nRecieved shape: (8, 5)"
+        },
+        {
+            "name": "root -> task1 -> 65",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 9)\nRecieved shape: (9, 8)"
+        },
+        {
+            "name": "root -> task1 -> 66",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (6, 3)\nRecieved shape: (3, 6)"
+        },
+        {
+            "name": "root -> task1 -> 67",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (6, 9)\nRecieved shape: (9, 6)"
+        },
+        {
+            "name": "root -> task1 -> 68",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 4)\nRecieved shape: (4, 8)"
+        },
+        {
+            "name": "root -> task1 -> 69",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 5)\nRecieved shape: (5, 9)"
+        },
+        {
+            "name": "root -> task1 -> 70",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 3)\nRecieved shape: (3, 9)"
+        },
+        {
+            "name": "root -> task1 -> 71",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 3)\nRecieved shape: (3, 8)"
+        },
+        {
+            "name": "root -> task1 -> 72",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (6, 3)\nRecieved shape: (3, 6)"
+        },
+        {
+            "name": "root -> task1 -> 73",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (7, 4)\nRecieved shape: (4, 7)"
+        },
+        {
+            "name": "root -> task1 -> 74",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 3)\nRecieved shape: (3, 9)"
+        },
+        {
+            "name": "root -> task1 -> 75",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 5)\nRecieved shape: (5, 9)"
+        },
+        {
+            "name": "root -> task1 -> 76",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 37.333333333333336"
+        },
+        {
+            "name": "root -> task1 -> 77",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (7, 5)\nRecieved shape: (5, 7)"
+        },
+        {
+            "name": "root -> task1 -> 78",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (4, 5)\nRecieved shape: (5, 4)"
+        },
+        {
+            "name": "root -> task1 -> 79",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 7)\nRecieved shape: (7, 8)"
+        },
+        {
+            "name": "root -> task1 -> 80",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 8)\nRecieved shape: (8, 9)"
+        },
+        {
+            "name": "root -> task1 -> 81",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 45.125"
+        },
+        {
+            "name": "root -> task1 -> 82",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (4, 8)\nRecieved shape: (8, 4)"
+        },
+        {
+            "name": "root -> task1 -> 83",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (7, 6)\nRecieved shape: (6, 7)"
+        },
+        {
+            "name": "root -> task1 -> 84",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 6)\nRecieved shape: (6, 8)"
+        },
+        {
+            "name": "root -> task1 -> 85",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (7, 8)\nRecieved shape: (8, 7)"
+        },
+        {
+            "name": "root -> task1 -> 86",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (6, 9)\nRecieved shape: (9, 6)"
+        },
+        {
+            "name": "root -> task1 -> 87",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (3, 2)\nRecieved shape: (2, 3)"
+        },
+        {
+            "name": "root -> task1 -> 88",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (5, 2)\nRecieved shape: (2, 5)"
+        },
+        {
+            "name": "root -> task1 -> 89",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (5, 3)\nRecieved shape: (3, 5)"
+        },
+        {
+            "name": "root -> task1 -> 90",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 6)\nRecieved shape: (6, 9)"
+        },
+        {
+            "name": "root -> task1 -> 91",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 38.4"
+        },
+        {
+            "name": "root -> task1 -> 92",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (6, 2)\nRecieved shape: (2, 6)"
+        },
+        {
+            "name": "root -> task1 -> 93",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 8)\nRecieved shape: (8, 9)"
+        },
+        {
+            "name": "root -> task1 -> 94",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 2)\nRecieved shape: (2, 9)"
+        },
+        {
+            "name": "root -> task1 -> 95",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 3)\nRecieved shape: (3, 9)"
+        },
+        {
+            "name": "root -> task1 -> 96",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 3)\nRecieved shape: (3, 9)"
+        },
+        {
+            "name": "root -> task1 -> 97",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 4)\nRecieved shape: (4, 8)"
+        },
+        {
+            "name": "root -> task1 -> 98",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (4, 8)\nRecieved shape: (8, 4)"
+        },
+        {
+            "name": "root -> task1 -> 99",
+            "ok": false,
+            "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 5)\nRecieved shape: (5, 9)"
+        },
+        {
+            "name": "root -> task2 -> 0",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 1",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 2",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 3",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 4",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 5",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 6",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 7",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 8",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 9",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 10",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 11",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 12",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 13",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 1453.9642857142858"
+        },
+        {
+            "name": "root -> task2 -> 14",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 15",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 16",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 17",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 18",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 19",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 20",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 21",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 2541.7283950617284"
+        },
+        {
+            "name": "root -> task2 -> 22",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 1890.0208333333333"
+        },
+        {
+            "name": "root -> task2 -> 23",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 24",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 2065.814814814815"
+        },
+        {
+            "name": "root -> task2 -> 25",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 26",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 461.55555555555554"
+        },
+        {
+            "name": "root -> task2 -> 27",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 28",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 29",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 30",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 31",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 1435.9642857142858"
+        },
+        {
+            "name": "root -> task2 -> 32",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 33",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 34",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 35",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 36",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 37",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 38",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 39",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 40",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 41",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 42",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 43",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 44",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 45",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 46",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 47",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 48",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 49",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 50",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 51",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 52",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 53",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 54",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 55",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 56",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 57",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 58",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 128.6875"
+        },
+        {
+            "name": "root -> task2 -> 59",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 60",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 61",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 62",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 63",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 64",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 65",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 66",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 67",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 1166.6888888888889"
+        },
+        {
+            "name": "root -> task2 -> 68",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 88.33333333333333"
+        },
+        {
+            "name": "root -> task2 -> 69",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 70",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 71",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 72",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 73",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 74",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 75",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 76",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 77",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 78",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 79",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 80",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 81",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 82",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 83",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 84",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 85",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 86",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 87",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 88",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 89",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 90",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 91",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 92",
+            "ok": false,
+            "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 2251.7301587301586"
+        },
+        {
+            "name": "root -> task2 -> 93",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 94",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 95",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 96",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 97",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 98",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task2 -> 99",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 0",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 1",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 2",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 3",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 4",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 5",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 6",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 7",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 8",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 9",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 10",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 11",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 12",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 13",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 14",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 15",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 16",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 17",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 18",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 19",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 20",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 21",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 22",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 23",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 24",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 25",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 26",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 27",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 28",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 29",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 30",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 31",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 32",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 33",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 34",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 35",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 36",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 37",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 38",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 39",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 40",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 41",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 42",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 43",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 44",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 45",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 46",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 47",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 48",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 49",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 50",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 51",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 52",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 53",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 54",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 55",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 56",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 57",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 58",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 59",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 60",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 61",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 62",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 63",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 64",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 65",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 66",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 67",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 68",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 69",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 70",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 71",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 72",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 73",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 74",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 75",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 76",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 77",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 78",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 79",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 80",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 81",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 82",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 83",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 84",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 85",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 86",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 87",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 88",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 89",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 90",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 91",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 92",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 93",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 94",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 95",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 96",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 97",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 98",
+            "ok": true,
+            "status": "OK"
+        },
+        {
+            "name": "root -> task3 -> 99",
+            "ok": true,
+            "status": "OK"
+        }
+    ]
+}
